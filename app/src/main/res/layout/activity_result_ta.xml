@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1ECFE"
+    android:orientation="vertical"
+    tools:context=".ResultIntroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvMainTA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/font"
+            android:gravity="center|right"
+            android:text="MAIN"
+            android:textColor="#1b73e9"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="RESULT"
+            android:textColor="#1b73e9"
+            android:textSize="80dp" />
+
+        <TextView
+            android:id="@+id/tvResultTA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="10/10"
+            android:textColor="#1b73e9"
+            android:textSize="80dp" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1B73E9" />
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1B73E9" />
+
+        <TextView
+            android:id="@+id/textView68"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1B73E9" />
+
+        <TextView
+            android:id="@+id/at1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="1. 노래 제목"
+            android:textColor="#1B73E9"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView69"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:textColor="#1B73E9"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/at2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="2. 노래 제목"
+            android:textColor="#1B73E9"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView70"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:textColor="#1B73E9"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/at3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="3. 노래 제목"
+            android:textColor="#1B73E9"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:textColor="#1B73E9"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/at4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="4. 노래 제목"
+            android:textColor="#1B73E9"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:textColor="#1B73E9"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/at5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="5. 노래 제목"
+            android:textColor="#1B73E9"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:textColor="#1B73E9"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/at6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="6. 노래 제목"
+            android:textColor="#1B73E9"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:textColor="#1B73E9"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/at7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="7. 노래 제목"
+            android:textColor="#1B73E9"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:textColor="#1B73E9"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/at8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="8. 노래 제목"
+            android:textColor="#1B73E9"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:textColor="#1B73E9"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/at9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="9. 노래 제목"
+            android:textColor="#1B73E9"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:textColor="#1B73E9"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/at10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="10. 노래 제목"
+            android:textColor="#1B73E9"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"></LinearLayout>
+</LinearLayout>
